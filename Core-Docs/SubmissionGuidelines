@@ -1,0 +1,106 @@
+📄 DigiArsenal Submission Guidelines
+
+Welcome to the DigiArsenal Research Repository. This document explains how to submit bugs, update requests, and program contributions in a structured, auditable, and traceable way.
+
+1️⃣ General Principles
+
+Core-Docs/ is immutable: do not attempt direct edits.
+
+All submissions must go through Issues using the provided templates.
+
+Attachments are uploaded via the Issue editor (drag & drop).
+
+All submissions must include Author / Reporter Name for proper attribution.
+
+2️⃣ Submission Types
+A. Bug Report
+
+Use this template to report defects, inconsistencies, or technical issues.
+
+Required fields:
+
+Author / Reporter Name
+
+Description of the bug
+
+Optional file attachments (logs, screenshots, reproducible artifacts)
+
+Steps:
+
+Go to Issues → New Issue → Bug Report
+
+Fill in all fields and attach relevant files
+
+Submit
+
+After submission: The team will review, label, and track your report.
+
+B. Update Request
+
+Use this template to propose feature enhancements, conceptual improvements, or documentation updates.
+
+Required fields:
+
+Author / Reporter Name
+
+Request details
+
+Optional supporting files (diagrams, references)
+
+Steps:
+
+Go to Issues → New Issue → Update Request
+
+Fill in all fields and attach optional files
+
+Submit
+
+After submission: The team evaluates feasibility and relevance.
+
+C. Program Submission
+
+Use this template to submit programs, scripts, or code artifacts for review and inclusion.
+
+Required fields:
+
+Author / Reporter Name
+
+Program description
+
+Upload program files (ZIP, source code, documentation)
+
+Steps:
+
+Go to Issues → New Issue → Program Submission
+
+Fill in all fields
+
+Drag & drop program files in the attachment section
+
+Submit
+
+After submission: The team reviews, and approved submissions may be archived in the Programs/ folder.
+
+3️⃣ Review & Archival Process
+
+All submissions are reviewed for clarity, validity, and relevance.
+
+Approved submissions are manually moved to the corresponding folder:
+
+Programs/ → approved program files
+
+Update-Requests/ → archive of approved feature requests
+
+Bug-Reports/ → archive of resolved bugs (optional)
+
+Each commit references the original issue number for traceability.
+
+4️⃣ Submission Best Practices
+
+Be clear and concise in descriptions
+
+Include all relevant files in attachments
+
+Use your real name or a consistent identifier in Author field
+
+Avoid submitting the same issue multiple times
