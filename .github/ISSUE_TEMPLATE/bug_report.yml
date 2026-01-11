@@ -1,0 +1,17 @@
+@author : Your name
+name: Bug Report
+description: Report a bug or defect
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the problem
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Attach files
+      description: Drag and drop logs, screenshots, etc.
