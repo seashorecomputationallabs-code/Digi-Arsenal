@@ -3,14 +3,22 @@ description: Report a bug or defect
 title: "[BUG] "
 labels: ["bug"]
 body:
+  - type: input
+    attributes:
+      label: Author / Reporter Name
+      description: Your full name or preferred identifier
+      placeholder: e.g. John Doe / johndoe123
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Description
-      description: Describe the problem
+      description: Describe the problem clearly
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Attach files
-      description: Drag and drop logs, screenshots, etc.
+      description: Drag and drop logs, screenshots, or other relevant files here
