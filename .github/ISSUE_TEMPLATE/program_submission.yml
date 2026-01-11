@@ -2,22 +2,24 @@ name: Program Submission
 description: Submit a program or code artifact
 title: "[PROGRAM] "
 labels: ["program"]
+
 body:
-   - type: input
+  - type: input
     attributes:
       label: Author / Reporter Name
       description: Your full name or preferred identifier
       placeholder: e.g. John Doe / johndoe123
     validations:
       required: true
+
   - type: textarea
     attributes:
-      label: Program description
+      label: Program Description
       description: Explain what the program does
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Upload files
-      description: Drag and drop ZIP / source files here
+      label: Upload Files
+      description: Drag and drop ZIP files, source code, or documentation here
