@@ -1,0 +1,17 @@
+author : your name
+name: Update Request
+description: Request an update or feature
+title: "[UPDATE] "
+labels: ["update"]
+body:
+  - type: textarea
+    attributes:
+      label: Request details
+      description: Describe the requested change
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Supporting files
+      description: Optional attachments
