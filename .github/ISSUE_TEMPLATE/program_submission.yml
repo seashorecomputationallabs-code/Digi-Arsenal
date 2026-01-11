@@ -1,0 +1,16 @@
+name: Program Submission
+description: Submit a program or code artifact
+title: "[PROGRAM] "
+labels: ["program"]
+body:
+  - type: textarea
+    attributes:
+      label: Program description
+      description: Explain what the program does
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Upload files
+      description: Drag and drop ZIP / source files here
